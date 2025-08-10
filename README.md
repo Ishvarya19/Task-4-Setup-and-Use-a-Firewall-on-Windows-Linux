@@ -21,11 +21,11 @@ Configure and test basic firewall rules to allow or block network traffic on a s
    Deleted the Telnet block rule after testing.
 
 # Steps Performed Linux UFW
-sudo ufw enable
-sudo ufw status numbered
-sudo ufw deny 23/tcp
-sudo ufw allow 22/tcp
-sudo ufw delete deny 23/tcp
+- sudo ufw enable
+- sudo ufw status numbered
+- sudo ufw deny 23/tcp
+- sudo ufw allow 22/tcp
+- sudo ufw delete deny 23/tcp
 
 # Summary – How Firewall Filters Traffic
 A firewall monitors and controls incoming and outgoing network traffic based on pre-defined rules.
